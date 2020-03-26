@@ -771,7 +771,7 @@ footer{
 
 @media only screen and (min-width: 380px) {
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 	.nav-bar{
 		display: flex;
