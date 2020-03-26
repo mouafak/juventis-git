@@ -826,11 +826,14 @@ footer{
         color: #fff;
     }
     .slide .text{
-        background-color: rgba(255, 255, 255);
+        background-color: rgba(0, 0, 0,.75);
         padding: 30px;
     }
     .slide .text a{
-        color: #000;
+        color: #fff;
+    }
+    .slide .text a:before{
+        content: '';
     }
 }
 @media only screen and (min-width: 480px) {
