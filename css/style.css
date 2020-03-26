@@ -200,7 +200,7 @@ p{
     color: var(--color-black);
 }
 .slide-text .text a:before{
-    content: url(/images/feuilles.jpg);
+    content: url(images/feuilles.jpg);
     display: inline-flex;
     position: relative;
     width: 30px;
