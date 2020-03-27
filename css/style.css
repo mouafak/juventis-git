@@ -773,6 +773,9 @@ footer{
     body{
         overflow-x: hidden !important;
     }
+    .larg80 , .larg100{
+        width: 100%;
+    }
 	.nav-bar{
 		display: flex;
 	}
@@ -834,6 +837,9 @@ footer{
     }
     .slide .text a:before{
         content: '';
+    }
+    .social-media{
+        display: none;
     }
 }
 @media only screen and (min-width: 480px) {
