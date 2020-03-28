@@ -818,6 +818,7 @@ footer{
         position: absolute;
         top: 100px;
         z-index: -999;
+        overflow: hidden;
     }
     .slide-text{
         border: none;
