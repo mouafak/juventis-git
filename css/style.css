@@ -779,14 +779,13 @@ footer{
     }
 	.nav-bar{
         display: flex;
-        overflow: hidden;
 	}
 	.nav-bar .logo{
 		padding: 10px;
 	}
 	.nav-ul{
 		flex-direction: column;
-		display: flex;
+		display: none;
 		position: absolute;
 		right: -110%;
 		top: 100px;
