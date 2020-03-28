@@ -813,6 +813,7 @@ footer{
     }
     .slide{
         flex-direction: column;
+        overflow: hidden;
     }
     .slide-imgs{
         position: absolute;
