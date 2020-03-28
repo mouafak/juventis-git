@@ -778,7 +778,8 @@ footer{
         width: 100%;
     }
 	.nav-bar{
-		display: flex;
+        display: flex;
+        overflow: hidden;
 	}
 	.nav-bar .logo{
 		padding: 10px;
@@ -819,7 +820,6 @@ footer{
         position: absolute;
         top: 100px;
         z-index: -999;
-        overflow: hidden;
     }
     .slide-text{
         border: none;
