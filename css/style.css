@@ -764,7 +764,7 @@ footer{
 
 @media only screen and (max-width: 1400px) {
     body{
-        /* overflow-x: hidden !important; */
+        overflow-x: hidden !important;
         box-sizing: border-box;
         width: 100%;
     }
@@ -899,6 +899,38 @@ footer{
         flex-direction: column;
         font-size: 14px;
     }
+
+
+    .certaficates-container h1{
+        text-align: center;
+    }
+    .certaficates{
+        flex-direction: column;
+    }
+    .oui-francaise{
+        flex-direction: column;
+    }
+    .oui-francaise .f-img{
+        justify-content: center;
+    }
+
+    .map-adresse{
+        flex-direction: column;
+    }
+
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        justify-content: space-between;
+}
+.footer-bottom-left h2 , .footer-bottom-middle h2{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 }
 @media only screen and (min-width: 480px) {
 
