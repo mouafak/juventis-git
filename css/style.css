@@ -98,10 +98,11 @@ p{
     align-items: center;
 }
 .nav-li a{
+    padding: 10px;
     text-align: center;
     color: var(--color-black);
     font-weight: 400;
-    transition: linear .3s;
+    transition: linear .1s;
 }
 .nav-a:after{
     content: "";
@@ -365,7 +366,7 @@ p{
     border: 1px solid rgb(0, 0, 0,0.25);
 }
 .group-produit .left a:before{
-    content: url(images/next.png);
+    content: url(/images/next.png);
     display: inline-flex;
     width: 0px;
     transition: linear .2s;
@@ -420,6 +421,8 @@ p{
 .produits-menu ul{
     justify-content: space-evenly;
     width: 60%;
+    pointer-events: none;
+
 }
 .nos-produits .produits-menu ul li {
     height: 100%;
@@ -427,23 +430,13 @@ p{
     cursor: pointer;
     text-align: center;
     font-weight: 500;
+    pointer-events: all;
 }
 .active{
     color : #fff;
     background-color: var(--color-g);
 }
- .nos-produits .para{
-     display: flex;
-     width: 100%;
-     height: 100%;
-     justify-content: center;
-     align-items: center;
- }
- .nos-produits .para p{
-     padding: 20px;
-     text-align: center;
-     font-size: 14px;
- }
+
 .container-cates-produits{
     margin : 40px 0;
 }
@@ -786,9 +779,9 @@ footer{
 	}
 	.nav-ul{
 		flex-direction: column;
-		display: none;
+		display: flex;
 		position: absolute;
-		right: -110%;
+		right: 0;
 		top: 100px;
 		bottom: 0;
 		background-color: #49A84E;
@@ -846,6 +839,65 @@ footer{
     }
     .social-media{
         display: none;
+    }
+    .button a{
+        font-size: 12px ;
+    }
+
+
+    .qualite{
+        flex-direction: column;
+        height: 600px;
+        background-color: #FFF;
+        margin: 0;
+    }
+    .qualite div{
+        background-color: var(--color-g);
+        flex-direction: column;
+        height: 200px;
+        width: 90%;
+        text-align: center;
+        margin: 10px 0 auto;
+        padding-bottom: 10px;
+    }
+
+
+    .about{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .about .title h1{
+        width: 100%;
+        text-align: left;
+        font-size: 25px;
+    }
+    .about-para p{
+        padding: 10px;
+        text-align: left;
+    }
+    
+
+
+    .groups-produits .top , .groups-produits .bottom{
+        flex-direction: column;
+        width: 100%;
+    }
+    .group-produit{
+        flex-direction: column;
+        width: 100%;
+    }
+    .group-produit .left{
+        width: 100%;
+    }
+    .group-produit .left a{
+        width: 30%;
+    }
+
+
+    .nos-produits .produits-menu .ul-produits{
+        width: 100%;
+        flex-direction: column;
+        font-size: 14px;
     }
 }
 @media only screen and (min-width: 480px) {
